@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Graphics</title>
+</head>
+<body>
+<!--Timeline carousel-->
+<section class="timeline-carousel">
+    <h1 style="font-family: OCR A Std, monospace; font-weight: 1;">Graphics</h1>
+    <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+        <!--Ray-tracing-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay" style="background: url('assets/Graphics/004.jpg') center center; background-size:cover;"></div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">Ray-tracing</span>
+                    <span class="month">2020.11-12</span>
+                    <p>Use OpenGL & C++ to implement offline ray-tracing algorithm and render pictures with given objects and lights.</p>
+                    <!-- <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Ray-tracing-->
+
+        <!--Splines-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <!-- <div class="media-wrapper media-wrapper--overlay" style="background: url('images/02.jpeg') center center; background-size:cover;"></div> -->
+                    <div style="position:relative">
+                        <video src="assets/Graphics/roller_coaster.mp4" type="video/mp4"
+                        width= "100%" height= "100%" controls controlslist="nodownload noremoteplayback" disablePictureInPicture="true">
+                        <!-- <source src="assets/Graphics/rollar_coaster.mp4" type="video/mp4"/> -->
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <!-- <div class="pointer"></div> -->
+                    <span class="year">Splines</span>
+                    <span class="month">2020.10-11</span>
+                    <p>Use OpenGL & C++ to implement splines, rails, dome sky box, and dynamic cameras on roller coaster. Apply openGL Phong shading to rails. </p>
+<!--                    <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Splines-->
+
+        <!--Height Map-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <div style="position:relative">
+                        <video src="assets/Graphics/heightmap.mp4" type="video/mp4"
+                        width= "100%" height= "100%" controls controlslist="nodownload noremoteplayback" disablePictureInPicture="true">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <!-- <div class="pointer"></div> -->
+                    <span class="year">Heightmap</span>
+                    <span class="month">2020.9-10</span>
+                    <p>Use OpenGL & C++ to implement terrains with given Heightmap data or picture. The terrain can change colors, rendering mode (dot, lines, strips, faces), scales, rotations, and positions. Hand-writing Phong shading is implemented.</p>
+<!--                    <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Height Map-->
+
+        <!--Interactive Snow-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay" style="background: url('assets/Graphics/SnowDeformation_TombRaider.jpg') center center; background-size:cover;"></div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">Snow Deformation (Recovered ver.)</span>
+                    <span class="month">2020.6-8</span>
+                    <p>(Video is waiting for upload) Use Unity and DirectX3D to implement interactive snow effect in Raise of the Tomb Raider. Use compute shader to calculate dynamic heightmap for snow texture based on object positions; unlit shader to render proper change of vertices; another compute shader to imitate fill of snow effect; hull shader and domain shader to increase efficiency.	</p>
+<!--                    <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Interactive Snow-->
+
+        <!--Interactive Texture-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay" style="background: url('assets/Graphics/InteractiveTexture_Batman.png') center center; background-size:cover;"></div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">Interactive Texture</span>
+                    <span class="month">2020.6-8</span>
+                    <p>(Video is waiting for upload) Use Unity and DirectX3D to implement interactive snow effect in Batman: Arkham Origins. Use a depth camera to catch height information of each vertex and store in heightmap. 	</p>
+<!--                    <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Interactive Texture-->
+
+        <!--Simple Game Engine-->
+        <div class="timeline-carousel__item">
+            <div class="timeline-carousel__mask"></div>
+            <div class="timeline-carousel__content">
+                <div class="timeline-carousel__image">
+                    <div style="position:relative">
+                        <video src="assets/Graphics/game_engine.mp4" type="video/mp4"
+                        width= "100%" height= "100%" controls controlslist="nodownload noremoteplayback" disablePictureInPicture="true">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">Simple Game Engine</span>
+                    <span class="month">2020.01-05</span>
+                    <p>Use C++ and DirectX3D 11 to implement basic functions of game engine: 3D math calculations, model(vertices and pixels) rendering, Phong shading rendering, animation matrices, collision detections (line and OBB), normal maps, post-processing effects (Bloom), </p>
+<!--                    <a href="#" class="read-more">Read more</a>-->
+                </div>
+            </div>
+        </div>
+        <!--/Simple Game Engine-->
+
+    </div>
+</section>
+<!--Timeline carousel-->
+
+</body>
+</html>
